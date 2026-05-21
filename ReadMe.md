@@ -16,6 +16,13 @@ Docker汉化  Docker中文版  Docker Desktop汉化 Docker Windows Docker MAC
 
 ## 下载指南
 
+Docker Desktop 4.74开始，Electron 需要校验完整性。
+Release 中的汉化包为 `app-*.zip`：
+- Windows 包含 `app.asar`、`app.asar.unpacked` 和已同步完整性校验的 `Docker Desktop.exe`。
+- macOS / Linux 包含 `app.asar` 和 `app.asar.unpacked`。
+
+
+
 - Windows
   - 使用 Intel/AMD 的 x64 芯片（**较为普遍**），则下载 DockerDesktop-x.x.x-Windows-x86.exe（本体）和 app-Windows-x86.asar（汉化包）
   - 使用 arm 芯片（**较为稀有**），则下载 DockerDesktop-x.x.x-Windows-arm.exe（本体）和 app-Windows-arm.asar（汉化包）
